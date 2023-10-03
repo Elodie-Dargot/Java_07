@@ -2,9 +2,9 @@ public abstract class Vehicle {
     private String brand;
     private int kilometers;
 
-    public Vehicle(String brand) {
+    public Vehicle(String brand, int kilometers) {
         this.brand = brand;
-        this.kilometers = 0;
+        this.kilometers = kilometers;
     }
 
     public String getBrand() { return this.brand; }
